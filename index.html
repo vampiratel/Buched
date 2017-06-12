@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
+<head>
+
+<!-- Meta Tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Awesome Peru | Responsive One Page Template</title>   
+
+<meta name="description" content="Insert Your Site Description" /> 
+
+<!-- Mobile Specifics -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="MobileOptimized" content="320"/>   
+
+<!-- Mobile Internet Explorer ClearType Technology -->
+<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+
+<!-- Bootstrap -->
+<link href="_include/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Main Style -->
+<link href="_include/css/main.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- FancyBox -->
+<link href="_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+
+<!-- Font Icons -->
+<link href="_include/css/fonts.css" rel="stylesheet">
+
+<!-- Shortcodes -->
+<link href="_include/css/shortcodes.css" rel="stylesheet">
+
+<!-- Responsive -->
+<link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="_include/css/responsive.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- Google Font -->
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
+
+<!-- Fav Icon -->
+<link rel="shortcut icon" href="#">
+
+<link rel="apple-touch-icon" href="#">
+<link rel="apple-touch-icon" sizes="114x114" href="#">
+<link rel="apple-touch-icon" sizes="72x72" href="#">
+<link rel="apple-touch-icon" sizes="144x144" href="#">
+	
+<!-- Modernizr -->
+<script src="_include/js/modernizr.js"></script>
+
+<!-- Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'Insert Your Code']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End Analytics -->
+
+</head>
+
+
+<body>
+
+<!-- This section is for Splash Screen -->
+<div class="ole">
+<section id="jSplash">
+	<div id="circle"></div>
+</section>
+</div>
+<!-- End of Splash Screen -->
+
+<!-- Homepage Slider -->
+<div id="home-slider">	
+    <div class="overlay"></div>
+
+    <div class="slider-text">
+    	<div id="slidecaption"></div>
+    </div>   
+	
+	<div class="control-nav">
+        <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
+        <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
+        <ul id="slide-list"></ul>
+        
+        <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
+    </div>
+</div>
+<!-- End Homepage Slider -->
+
+<!-- Header -->
+<header>
+    <div class="sticky-nav">
+    	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+        
+        <div id="logo">
+        	<a id="goUp" href="#home-slider" title="Brushed | Responsive One Page Template">Brushed Template</a>
+        </div>
+        
+        <nav id="menu">
+        	<ul id="menu-nav">
+            	<li class="current"><a href="#home-slider">Inicio</a></li>
+                <li><a href="#work">Nuestro Trabajo</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+				<li><a href="shortcodes.html" class="external">Mas Informacion</a></li>
+            </ul>
+        </nav>
+        
+    </div>
+</header>
+<!-- End Header -->
+
+<!-- Our Work Section -->
+<div id="work" class="page">
+	<div class="container">
+    	<!-- Title Page -->
+        <div class="row">
+            <div class="span12">
+                <div class="title-page">
+                    <h2 class="title">Maravilloso Perú </h2>
+                    <h3 class="title-description">Lugares hermosos que debes de conocer del <a href="#">Perú</a>.</h3>
+                </div>
+            </div>
+        </div>
+        <!-- End Title Page -->
+        
+        <!-- Portfolio Projects -->
+        <div class="row">
+        	<div class="span3">
+            	<!-- Filter -->
+                <nav id="options" class="work-nav">
+                    <ul id="filters" class="option-set" data-option-key="filter">
+                    	<li class="type-work">Tipo de Lugares y Comidas</li>
+                        <li><a href="#filter" data-option-value="*" class="selected">Todos Lugares y Gastronomía</a></li>
+                        <li><a href="#filter" data-option-value=".design">Atractivos Turisticos</a></li>
+                        <li><a href="#filter" data-option-value=".photography">Gastronomía Peruana</a></li>
+                        <li><a href="#filter" data-option-value=".video">Videos</a></li>
+                    </ul>
+                </nav>
+                <!-- End Filter -->
+            </div>
+            
+            <div class="span9">
+            	<div class="row">
+                	<section id="projects">
+                    	<ul id="thumbs">
+                        
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 design">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Laguna Pacucha" href="_include/img/work/full/image-01-full.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-01.jpg" alt="La Laguna de Pacucha es considerada como una de las más grandes y bellas lagunas del Perú. Se ubica a 17 kilómetros de Andahuaylas. Su importancia radica en virtud a que su volumen y componentes nutritivos de sus aguas son productivos, además de ser tibias y casi dulces. Asimismo, en la actualidad se vienen explotando diferentes especies como la trucha, pejerrey lacustre, generando por consiguiente nuevas fuentes de alimentación y de trabajo en beneficio de los habitantes del lugar.">
+                            </li>
+                        	<!-- End Item Project --> 
+
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 design">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Piedra Saywite-Apurimac" href="_include/img/work/full/image-13-full.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-13.jpg" alt="El conjunto arqueológico de Saywite, se localiza en el distrito de Curahuasi, provincia de Abancay, del departamento de Apurímac. Se ubica a 550 metros de la vía carrozable que une los centros poblados de Abancay y Curahuasi, a 74 kilómetros desde la capital del departamento de Apurimac. Comprende una extensión aproximada de 60 hectáreas. Saywite está geográficamente muy cerca de dos importantes ciudadelas: Machu Picchu y Choquequirao.
+">
+                            </li>
+                            <!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 design">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="MachuPicchu-Cusco" href="_include/img/work/full/image-02-full.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-02.jpg" alt="La zona arqueológica se halla situada en la margen izquierda del rio Vilcanota, en la quebrada de Kusi Chaka, hasta la desembocadura del rio Aobamba. En el distrito de Machu Picchu, provincia de Urubamba, departamento del noroeste de Cusco a 112.5 km. al noreste de la ciudad del Cusco en Perú.">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Puca Picante" href="_include/img/work/full/image-03-full.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-03.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 video">
+                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                            	<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Peru" href="https://vimeo.com/59372982">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-11.jpg" alt="Video">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Caldo de Mote" href="_include/img/work/full/image-04-full.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-04.jpg" alt="La sopa de mote criolla es una rica y gratísima comida peruana hecho con ingredientes especiales y manos criollas. Su preparación va en incorporar insumos únicos tales como maíz blanco, hojas de hierbabuena, cebolla china, y “carne de mondongo”. Hoy en día, se observa una preparación exclusiva donde se incorpora diferentes tipos de ingredientes que le aportan un sabor distinto, y aparte del lugar geográfico la forma de cocinarlo varía.
+">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Tacacho con Cecina" href="_include/img/work/full/image-05-full.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-05.jpg" alt="El tacacho es un plato de la gastronomía del Perú típico de la zona de la selva peruana y ampliamente difundido en el resto del país.El consumo del tacacho varía según la región donde se elabora, así en Madre de Dios y San Martín se acostumbraría consumir el tacacho durante el desayuno mientras que en otras regiones es un plato servido en el almuerzo y/o la cena. En la región San Martín se incluiría el tacacho dentro de la cena navideña.">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 video">
+                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                            	<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Lago Titicaca-Puno" href="https://vimeo.com/86211376">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-10.jpg" alt="Video"> 
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 design">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Sacsayhuaman-Cusco" href="_include/img/work/full/image-06-full.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-06.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            </li>
+                        	<!-- End Item Project -->
+                              <li class="item-thumbs span3 photography">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Ceviche" href="_include/img/work/full/image-12-full.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-12.jpg" alt="El Ceviche Peruano de pescado es el plato tradicional por excelencia en el Perú. Los peruanos lo consideramos nuestro plato bandera y nos sentimos especialmente orgullosos de él. En el año 2004, el Instituto Nacional de Cultura declaró al Ceviche Patrimonio Cultural de la Nación por su importancia dentro de la gastronomía peruana y por lo que representa fuera de las fronteras del Perú. ">
+                            </li>
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 design">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Ollantaytambo-Cusco" href="_include/img/work/full/image-07-full.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-07.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            </li>
+
+                          
+
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 design">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Los Calabozos de Haquira: Qaqa Carcel-Apurimac" href="_include/img/work/full/image-08-full.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-08.jpg" alt="Haquira, en Apurímac,  alberga a Qaqa Cárcel, que fue una aterradora prisión colonial construida allá por 1650. Paradójicamente lleva grabado en su pétreo frontis la balanza de la justicia, una virtud ausente en sus lóbregas mazmorras.Qaqa cárcel fue una terrible prisión ubicada en las entrañas de un gigantesco peñón., donde los europeos masacraban a los indígenas rebeldes que se negaban a cumplir con la mita. Por aquel entonces Haquira era considerada la capital de todas las provincias de Apurímac y se había hecho famosa por el descubrimiento de varias minas de oro y plata que atraían la codicia de los foráneos.">
+                            </li>
+
+
+                        	<!-- End Item Project -->
+							
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 design">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Obelisco-Ayacucho" href="_include/img/work/full/image-14-full.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-14.jpg" alt="La Laguna de Pacucha es considerada como una de las más grandes y bellas lagunas del Perú. Se ubica a 17 kilómetros de Andahuaylas. Su importancia radica en virtud a que su volumen y componentes nutritivos de sus aguas son productivos, además de ser tibias y casi dulces. Asimismo, en la actualidad se vienen explotando diferentes especies como la trucha, pejerrey lacustre, generando por consiguiente nuevas fuentes de alimentación y de trabajo en beneficio de los habitantes del lugar.">
+                            </li>
+							
+							
+                        	<!-- End Item Project --> 
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 design">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Mancora-Piura" href="_include/img/work/full/image-15-full.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-15.jpg" alt="Máncora es un balneario ubicado al norte del Perú, tiene menos de 10 mil habitantes y se encuentra a más de 1000 kilómetros de Lima (17 horas aproximadamente), exactamente en el kilómetro 1165 de la Panamericana Norte. Para muchos es el lugar perfecto para relajarse y alejarse del stress de la ciudad, gracias a sus hermosas playas de arena blanca, la calidez de su gente y las delicias gastronómicas que nos ofrece. Dicen que es imposible sentirse mal en Máncora, es por eso que lanzamos esta página, para que todos encuentren su forma ideal de pasar las mejores vacaciones de su vida.">
+                            </li>
+                        	<!-- End Item Project --> 
+							
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 design">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Wari-Ayacucho" href="_include/img/work/full/image-16-full.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-16.jpg" alt="El Complejo Arqueológico Wari, fue una ciudad prehispánica capital del estado panandino Wari (600-1100 dC). Ubicado 22 km al noreste de la actual ciudad de Ayacucho y entre 2900 y 2600 msnm. Con un área aproximada de 2000 hectáreas, es uno de los centros urbanos más grandes del Antiguo Perú. Se ubica en una planicie en pendiente entre las quebradas Pacaycasa y Taranayco.">
+                            </li>
+                        	<!-- End Item Project --> 
+							
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 design">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Catarata de Yumbilla-Amazonas" href="_include/img/work/full/image-17-full.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-17.jpg" alt="Esta catarata está escondida en un bosque nublado, justo al margen derecho del río Utcubamba y a menos de una hora en carro desde Chachapoyas. Posee cuatro caídas que juntas suman 896 metros. Como fauna silvestre, destaca la presencia de los gallitos de las rocas, monos, reptiles y osos.
+
+">
+                            </li>
+                        	<!-- End Item Project --> 
+							
+							
+						
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 design">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Lineas de Nazca-Ica" href="_include/img/work/full/image-18-full.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-18.jpg" alt="Las líneas de Nazca son antiguos geoglifos que se encuentran en las Pampas de Jumana, en el desierto de Nazca, entre las poblaciones de Nazca y Palpa (Perú). Fueron trazadas por la cultura nazca y están compuestas por varios cientos de figuras que abarcan desde diseños tan simples como líneas hasta complejas figuras zoomorfas, fitomorfas y geométricas que aparecen trazadas sobre la superficie terrestre.">
+                            </li>
+                        	<!-- End Item Project --> 
+						
+							
+							
+
+                        </ul>
+                    </section>
+                    
+            	</div>                       
+            </div>
+        </div>
+        <!-- End Portfolio Projects -->
+    </div>
+</div>
+<!-- End Our Work Section -->
+
+<!-- About Section -->
+<div id="about" class="page-alternate">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Sobre Nosotros</h2>
+                <h3 class="title-description">Aprender sobre nuestro equipo &amp; Cultura.</h3>
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+    
+    <!-- People -->
+    <div class="row">
+    	
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Fundador</span>
+                </div>
+                <img src="_include/img/profile/profile-01.jpg" alt="John Doe">
+            </div>
+            <h3 class="profile-name">Carlos Casaverde</h3>
+            <p class="profile-description">Estudiante  de Ingenieria Informatica y de Sistemas en la Universidad San Ignacio de Loyola <a href="http://www.usil.edu.pe/">(Usil)</a>.
+            Nacio en Ayacucho  .</p>
+            	
+            <div class="social">
+            	<ul class="social-icons">
+                	<li><a href="https://twitter.com/Carlos_C_Laines?lang=es"><i class="font-icon-social-twitter"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UC2s3iCNlJVuA4A4bGwDev9g"><i class="font-icon-social-youtube"></i></a></li>
+                    <li><a href="https://www.facebook.com/carlos.casaverdelaines"><i class="font-icon-social-facebook"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Profile -->
+        
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Director Creativo</span>
+                </div>
+                <img src="_include/img/profile/profile-02.jpg" alt="Jane Helf">
+            </div>
+            <h3 class="profile-name">Frank Minaya</h3>
+            <p class="profile-description">Estudiante  de Ingenieria Informatica y de Sistemas en la Universidad San Ignacio de Loyola <a href="http://www.usil.edu.pe/">(Usil)</a>.
+            Nacio en Ayacucho .</p>
+            	
+            <div class="social">
+            	<ul class="social-icons">
+                	<li><a href="https://www.facebook.com/profile.php?id=100010112861902"><i class="font-icon-social-facebook"></i></a></li>
+                  
+                </ul>
+            </div>
+        </div>
+        <!-- End Profile -->
+		
+        
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Director Creativo</span>
+                </div>
+                <img src="_include/img/profile/profile-03.jpg" alt="Joshua Insanus">
+            </div>
+            <h3 class="profile-name">Rodrigo Narciso</h3>
+            <p class="profile-description">Estudiante  de Ingenieria Informatica y de Sistemas en la Universidad San Ignacio de Loyola <a href="http://www.usil.edu.pe/">(Usil)</a>. 
+            Nacio en Lima.</p>
+            	
+            <div class="social">
+            	<ul class="social-icons">
+                	<li><a href="https://www.facebook.com/rodrigo.narcisopilco16"><i class="font-icon-social-facebook"></i></a></li>
+                 
+                </ul>
+            </div>
+        </div>
+        <!-- End Profile -->
+		
+		 <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Director Creativo</span>
+                </div>
+                <img src="_include/img/profile/profile-04.jpg" alt="Joshua Insanus">
+            </div>
+            <h3 class="profile-name">Marycielo Huapaya</h3>
+            <p class="profile-description">Estudiante  de Ingenieria Informatica y de Sistemas en la Universidad San Ignacio de Loyola <a href="http://www.usil.edu.pe/">(Usil)</a>. 
+            Nacio en Lima.</p>
+            	
+            <div class="social">
+            	<ul class="social-icons">
+                	<li><a href="https://www.facebook.com/Haneur1"><i class="font-icon-social-facebook"></i></a></li>
+                 
+                </ul>
+            </div>
+        </div>
+        <!-- End Profile -->
+        
+    </div>
+    <!-- End People -->
+</div>
+</div>
+<!-- End About Section -->
+
+
+<!-- Contact Section -->
+<div id="contact" class="page">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Estar en contacto</h2>
+                <h3 class="title-description">Actualmente  te podemos ayudar para poderte guiar. Esperamos poder servirle.</h3>
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+    
+    <!-- Contact Form -->
+    <div class="row">
+    	<div class="span9">
+        
+        	<form id="contact-form" class="contact-form" action="#">
+            	<p class="contact-name">
+            		<input id="contact_name" type="text" placeholder="Nombre Completo" value="" name="name" />
+                </p>
+                <p class="contact-email">
+                	<input id="contact_email" type="text" placeholder="Correo Electronico" value="" name="email" />
+                </p>
+                <p class="contact-message">
+                	<textarea id="contact_message" placeholder="Tu Mensaje" name="message" rows="15" cols="40"></textarea>
+                </p>
+                <p class="contact-submit">
+                	<a id="contact-submit" class="submit" href="#">Enviar</a>
+                </p>
+                
+                <div id="response">
+                
+                </div>
+            </form>
+         
+        </div>
+        
+        <div class="span3">
+        	<div class="contact-details">
+        		<h3>Detalles de Contacto</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/carlos.casaverdelaines">casaverdelaines@facebook.com</a></li>
+                    <li>943 353 529</li>
+                    <li>
+                        Brushed Studio
+                        <br>
+                        La Molina , Peru 
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Form -->
+</div>
+</div>
+<!-- End Contact Section -->
+
+<!-- Twitter Feed -->
+<div id="twitter-feed" class="page-alternate">
+	<div class="container">
+    	<div class="row">
+            <div class="span12">
+                <div class="follow">
+                    <a href="https://twitter.com/Carlos_C_Laines?lang=es" title="Follow Me on Twitter" target="_blank"><i class="font-icon-social-twitter"></i></a>
+                </div>
+                    
+                <div id="ticker" class="query"> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Twitter Feed -->
+
+<!-- Socialize -->
+<div id="social-area" class="page">
+	<div class="container">
+    	<div class="row">
+            <div class="span12">
+                <nav id="social">
+                    <ul>
+                        <li><a href="https://twitter.com/Carlos_C_Laines?lang=es" title="Siganme en Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
+                        <li><a href="https://www.facebook.com/carlos.casaverdelaines" title="Siganme en Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC2s3iCNlJVuA4A4bGwDev9g" title="Sucribanse en Youtube" target="_blank"><span class="font-icon-social-youtube"></span></a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Socialize -->
+
+<!-- Footer -->
+<footer>
+	<p class="credits">&copy;2017 Brushed. Creado Por <a href="http://www.usil.edu.pe/" title="Brushed | Responsive One Page Template">Usil</a></p>
+</footer>
+<!-- End Footer -->
+
+<!-- Back To Top -->
+<a id="back-to-top" href="#">
+	<i class="font-icon-arrow-simple-up"></i>
+</a>
+<!-- End Back to Top -->
+
+
+<!-- Js -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+<script src="_include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+<script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+<script src="_include/js/waypoints.js"></script> <!-- WayPoints -->
+<script src="_include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+<script src="_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+<script src="_include/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+<script src="_include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
+<script src="_include/js/jquery.tweet.js"></script> <!-- Tweet -->
+<script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+<script src="_include/js/main.js"></script> <!-- Default JS -->
+<!-- End Js -->
+
+</body>
+</html>
